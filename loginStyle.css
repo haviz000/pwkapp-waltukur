@@ -1,0 +1,64 @@
+html{
+  font-family: 'Times New Roman', Courier, monospace;
+  font-size: 15px;
+  background-image:url(bakground/BG_UNGU.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#utama{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 12%;
+}
+#judul{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 12%;
+  padding: 15px;
+  text-align: center;
+  color: fff;
+  font-size: 20px;
+  border-bottom: 2px solid #eaeaea;
+  background-color: rgb(124, 77, 119);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#inputan{
+  width: 990px;
+  height: auto;
+  background-color: #eaeaea;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+input{
+  padding: 10px;
+  border: 0;
+  width: 970px;
+}
+.submit{
+  background-color: rgb(91, 6, 82);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #fff;
+  margin-left: 10px;
+}
+.submit:hover{
+  background-color: white;
+  color: rgb(91, 6, 82);
+  cursor: pointer;
+}
+p{
+  font-size: 15px;
+  text-align: center;
+}
+p a{
+  color: rgb(91, 6, 82);
+  text-decoration: none;
+  padding: 4px;
+}
+p a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
