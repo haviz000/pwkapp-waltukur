@@ -180,9 +180,6 @@
                         <td colspan="2"><strong>Status_Kep</strong><br />' + (feature.properties['Status_Kep'] !== null ? autolinker.link(feature.properties['Status_Kep'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2"><strong>NIB</strong><br />' + (feature.properties['NIB'] !== null ? autolinker.link(feature.properties['NIB'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
                         <td colspan="2"><strong>Pemilik</strong><br />' + (feature.properties['Pemilik'] !== null ? autolinker.link(feature.properties['Pemilik'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -323,9 +320,6 @@
                     <tr>\
                         <td colspan="2"><strong>Status_Bid</strong><br />' + (feature.properties['Status_Bid'] !== null ? autolinker.link(feature.properties['Status_Bid'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2"><strong>NIB</strong><br />' + (feature.properties['NIB'] !== null ? autolinker.link(feature.properties['NIB'].toLocaleString()) : '') + '</td>\
-                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
@@ -375,9 +369,6 @@
                     </tr>\
                     <tr>\
                         <td colspan="2"><strong>Tgl_Terbit</strong><br />' + (feature.properties['Tgl_Terbit'] !== null ? autolinker.link(feature.properties['Tgl_Terbit'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2"><strong>NIB</strong><br />' + (feature.properties['NIB'] !== null ? autolinker.link(feature.properties['NIB'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
